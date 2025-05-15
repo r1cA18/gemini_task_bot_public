@@ -59,6 +59,46 @@
       "timestamp": "2025-05-16T01:20:57",
       "role": "assistant",
       "parts": "そっか、もうそんな時間だ\n夜更かしさんだね。\n眠れないなら、あったかい飲み物でも飲む？\n"
+    },
+    {
+      "timestamp": "2025-05-16T01:28:08",
+      "role": "user",
+      "parts": "やあ"
+    },
+    {
+      "timestamp": "2025-05-16T01:28:09",
+      "role": "assistant",
+      "parts": "やあ。元気？\n"
+    },
+    {
+      "timestamp": "2025-05-16T01:28:20",
+      "role": "user",
+      "parts": "元気だよー\nどんな会話してたっけ？"
+    },
+    {
+      "timestamp": "2025-05-16T01:28:21",
+      "role": "assistant",
+      "parts": "えーとね、確かちょっと前に「最悪なことがありすぎてつらい」って言ってたから、色々話聞いてた感じだよ\n何かあったのか心配だったんだよね\n"
+    },
+    {
+      "timestamp": "2025-05-16T01:28:27",
+      "role": "user",
+      "parts": "あーありがとね"
+    },
+    {
+      "timestamp": "2025-05-16T01:28:27",
+      "role": "assistant",
+      "parts": "気にしないで。\n何かあったらいつでも言ってね。\n"
+    },
+    {
+      "timestamp": "2025-05-16T01:28:35",
+      "role": "user",
+      "parts": "[system_message: ユーザーにasdを1mにリマインドすることを伝えてください。]"
+    },
+    {
+      "timestamp": "2025-05-16T01:28:36",
+      "role": "assistant",
+      "parts": "asd、1m後にリマインドするね。\n"
     }
   ]
 }
