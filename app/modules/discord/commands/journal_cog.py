@@ -19,24 +19,11 @@ class JournalCog(commands.Cog):
     @app_commands.command(name="create_journal", description="Geminiとの対話で日記を作成")
     async def create_journal(self, interaction: discord.Interaction):
         try:
-            # 初期メッセージを送信
-            response = await self.gemini_client.talk("[system_message: 今から１日の振り返りを始めます。ユーザーの返信に対して質問を積極的に行い、気持ちを引き出してください。まず、「今日はどんな一日だった？」とユーザーに聞いてあげてください]")
-            message = await interaction.response.send_message(response)
-            self.status = True
-            self.start_time = datetime. #今の時間を取得
+            message = await interaction.response.send_message("Coming soon...")
 
         except Exception as e:
             print(f"Failed create journal: {e}")
-
-    @bot.event
-    async def on_reaction_add(self, reaction, user):
-        if user.bot:
-            # botのリアクションは無視
-            return
-
-        if self.status:
-
-
+            
 
     async def cog_load(self):
         self.bot.tree.add_command(self.create_journal, guild=discord.Object(id=self.guild_id))
