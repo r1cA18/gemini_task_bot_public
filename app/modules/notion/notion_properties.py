@@ -1,0 +1,10 @@
+class NotionProperties:
+    NAME = "Name"
+    Timestamp = "Timestamp"
+    Priority = "Priority"
+    Type = "Type"
+    Timeslot = "Timeslot"
+    Deadline = "Deadline"
+    Memo = "Memo"
+    Status = "Status"
+    DB_PROJECT = "DB_PROJECT"

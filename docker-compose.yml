@@ -1,0 +1,12 @@
+# Composeファイルバージョン
+version: '3.9'
+
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: ./devcontainer/dockerfile
+    env_file:
+      - .env  # 環境変数の参照
+    volumes:
+      - ./app:/app  # ローカルのappをコンテナ内に同期

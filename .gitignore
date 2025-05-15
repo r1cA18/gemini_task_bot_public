@@ -1,0 +1,79 @@
+# 環境変数
+.env
+
+
+# Python関系
+
+# Pythonのコンパイル済みキャッシュ
+__pycache__/
+# コンパイル済みPythonファイル
+*.pyc
+*.pyo
+*.pyd
+.Python
+# 仮想環境
+env/
+# 仮想環境
+venv/
+# ビルドディレクトリ
+build/
+# 配布用ディレクトリ
+dist/
+
+
+# データベース
+
+# データベースファイル
+*.db
+# SQLiteデータベース
+*.sqlite
+# SQLite3データベース
+*.sqlite3
+
+
+# ログファイル
+*.log
+# バックグラウンド実行のログ
+nohup.out
+# ログディレクトリ
+logs/
+
+
+# テスト関連
+
+# テストカバレッジファイル
+.coverage
+# テストカバレッジレポート
+coverage/
+# テストカバレッジHTMLレポート
+htmlcov/
+# pytestキャッシュ
+.pytest_cache/
+
+
+# キャッシュ
+
+# mypyキャッシュ
+.mypy_cache/
+# ruffキャッシュ
+.ruff_cache/
+
+
+# IDE設定
+
+# VSCode設定
+.vscode/
+# PyCharm設定
+.idea/
+# Vimの一時ファイル
+*.swp
+# Vimの一時ファイル
+*.swo
+
+
+# OS関連
+
+# macOSの隠しファイル
+._*
+# macOSのシステムファイル
+.DS_Store
