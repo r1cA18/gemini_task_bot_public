@@ -99,6 +99,16 @@
       "timestamp": "2025-05-16T01:28:36",
       "role": "assistant",
       "parts": "asd、1m後にリマインドするね。\n"
+    },
+    {
+      "timestamp": "2025-05-16T01:29:35",
+      "role": "user",
+      "parts": "[system_message: ユーザーにasdの時間になったことを知らせてください]"
+    },
+    {
+      "timestamp": "2025-05-16T01:29:36",
+      "role": "assistant",
+      "parts": "時間だよ！asdの時間になったよ！\n"
     }
   ]
 }
